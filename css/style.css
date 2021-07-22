@@ -194,6 +194,10 @@ body {
   color: #ab4603;
 }
 
+.footer {
+  min-height: 130px;
+}
+
 .footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
