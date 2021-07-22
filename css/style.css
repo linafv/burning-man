@@ -115,6 +115,7 @@ body {
 }
 
 .header {
+  min-height: 900px;
   padding-top: 60px;
   color: #fff;
   text-transform: uppercase;
@@ -165,6 +166,32 @@ body {
   font-size: 17px;
   line-height: 25px;
   margin-left: auto;
+}
+
+.subtitle {
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-top: -3px;
+  font-size: 100px;
+  line-height: 147px;
+}
+
+.btn {
+  padding: 18px 23px;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border: 1px solid #ffffff;
+}
+
+.btn:hover {
+  color: #ab4603;
 }
 
 .footer__row {
