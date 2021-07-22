@@ -115,7 +115,9 @@ body {
 }
 
 .header {
+  padding-top: 60px;
   color: #fff;
+  text-transform: uppercase;
   background: url("/img/header-bg.png") no-repeat 50%;
   background-attachment: fixed;
   background-size: cover;
@@ -124,6 +126,45 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar {
+  margin-bottom: 215px;
+  letter-spacing: 0.1em;
+}
+
+.navbar__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-right: 70px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 40px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.tel {
+  font-size: 17px;
+  line-height: 25px;
+  margin-left: auto;
 }
 
 .footer__row {
