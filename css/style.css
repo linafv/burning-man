@@ -125,3 +125,20 @@ body {
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
+
+.footer__text:first-child {
+  margin-right: 70px;
+}
