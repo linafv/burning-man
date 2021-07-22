@@ -152,6 +152,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  line-height: 21px;
 }
 
 .nav__item {
